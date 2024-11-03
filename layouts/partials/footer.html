@@ -1,0 +1,13 @@
+<footer class="footer">
+    {{ with .Site.Params.footerHtml }}
+        <span>{{ . | safeHTML }}</span>
+    {{ else }}
+        <span>
+            <nav class="footerLinks">
+                {{ if isset .Site.Params "social" }}
+                    {{ partial "social.html" . }}
+                {{ end }}
+            </nav>
+        </span>
+    {{ end }}
+</footer>

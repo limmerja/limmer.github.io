@@ -2,3 +2,17 @@ baseURL = 'https://jakob.limmers.de/'
 languageCode = 'en-us'
 title = 'Jakob Limmer'
 theme = 'nightfall'
+
+[params]
+user = "jakob"
+hostname = "limmer"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.linkedin.com/in/jakoblimmer/"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:jakob@limmers.de"
